@@ -1,6 +1,7 @@
 
 .place__paragraph {
     display: grid;
+    align-items: flex-start;
     row-gap: 26px;
     grid-area: para;
 }
