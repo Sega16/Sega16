@@ -1,0 +1,28 @@
+
+.cover {
+    background-image: url(../../images/cover__background.png);
+    margin: 0 auto 92px;
+    background-size: contain;
+    background-repeat: no-repeat;
+    position: relative;
+    background-position: center;
+}
+
+@media screen and (max-width:1024px) {
+    .cover {
+        width: 100vw;
+        margin-left: calc(-50vw + 50%);
+    }
+}
+
+@media screen and (max-width: 768px) {
+    .cover {
+        margin-bottom: 88px;
+    } 
+}
+
+@media screen and (max-width: 320px) {
+    .cover {
+        margin-bottom: 64px;
+    }
+}

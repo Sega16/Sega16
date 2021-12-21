@@ -1,0 +1,30 @@
+
+.cover__text {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    padding-top: 245px;
+    padding-bottom: 245px;
+}
+
+@media screen and (max-width: 1024px) {
+    .cover__text {
+        padding-top: 195px;
+        padding-bottom: 195px;
+    }
+}
+
+@media screen and (max-width: 768px) {
+    .cover__text {
+        padding-top: 115px;
+        padding-bottom: 115px;
+    }
+}
+
+@media screen and (max-width: 320px) {
+    .cover__text {
+        padding-top: 33px;
+        padding-bottom: 33px;
+    }
+}

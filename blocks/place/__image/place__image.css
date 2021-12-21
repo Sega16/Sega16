@@ -1,0 +1,12 @@
+
+.place__image {
+    width: inherit;
+    grid-area: img;
+}
+
+@media screen and (max-width: 430px) {
+    .place__image {
+        width: 100vw;
+        margin-left: calc(-50vw + 50%);
+    }
+}

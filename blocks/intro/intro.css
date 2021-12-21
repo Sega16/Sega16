@@ -1,0 +1,7 @@
+
+.intro {
+    display: grid;
+    margin: 0 auto;
+    max-width: 984px;
+    text-align: start;
+}
