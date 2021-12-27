@@ -6,7 +6,7 @@
     grid-template-areas: 
     "title url"
     "img para";
-    margin:  0 auto 80px;   
+    margin:  0 auto 80px;
     column-gap: 40px;
 }
 
