@@ -3,5 +3,6 @@
     display: grid;
     align-items: flex-start;
     row-gap: 26px;
+    grid-template-rows: min-content;
     grid-area: para;
 }

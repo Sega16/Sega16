@@ -12,10 +12,10 @@
 <body class="page">
     <!-- ============================Header========================== -->
     <header class="header">
-        <img class="header__logo" src="./images/header__logo.png" alt="лого">
+        <img class="header__logo" src="./images/header__logo.svg" alt="лого">
         <ul class="header__lang-link">
-            <li><a class="links header__link" href="#">Ru</a></li>
-            <li><a class="links header__link" href="#">En</a></li>
+            <li><a class="links header__link header__link_active" href="#">Ru</a></li>
+            <li><a class="links header__link header__link_active" href="#">En</a></li>
         </ul>
 
     </header>
@@ -31,52 +31,66 @@
         </section>
 
         <!-- ============================Intro=========================== -->
-        <section class="intro">
-            <h2 class="intro__title">Чего мы там не видели?</h2>
-            <p class="intro__text">По опросам ВЦИОМ, 95% россиян мечтают куда-нибудь поехать, но только 36%
-                планируют
-                провести отпуск в родной стране. Мол, чего мы тут, дома, не видели? На самом деле, Россия — это
-                целая
-                вселенная с ласковым морем юга, густыми лесами Саян и суровыми льдами плато Путорана. А ещё увидеть
-                все
-                эти красоты можно без миллионов на счету, загранпаспорта и многочасовых перелетов. Как, например,
-                Вера
-                Башмакова — смелая молодая мама, которая взяла в охапку троих детей, усадила их в свою «Ладу» и
-                проехала
-                20 тысяч километров по родной стране. Мы выбрали и описали некоторые интересные места, достойные
-                вашего
-                отпуска.</p>
-            <ul class="intro__list">
-                <li>Часовых поясов <span>11</span></li>
-                <li>Объектов природного наследия ЮНЕСКО <span>12</span></li>
-                <li>Объектов культурного наследия ЮНЕСКО <span>16</span></li>
-                <li>Природных заповедников <span>105</span></li>
-                <li>Аэропортов <span>241</span></li>
-            </ul>
+        <section class="wrapp-intro">
+            <div class="intro">
+                <h2 class="intro__title">Чего мы там не видели?</h2>
+                <p class="intro__text">По опросам ВЦИОМ, 95% россиян мечтают куда-нибудь поехать, но только 36%
+                    планируют
+                    провести отпуск в родной стране. Мол, чего мы тут, дома, не видели? На самом деле, Россия — это
+                    целая
+                    вселенная с ласковым морем юга, густыми лесами Саян и суровыми льдами плато Путорана. А ещё увидеть
+                    все
+                    эти красоты можно без миллионов на счету, загранпаспорта и многочасовых перелетов. Как, например,
+                    Вера
+                    Башмакова — смелая молодая мама, которая взяла в охапку троих детей, усадила их в свою «Ладу» и
+                    проехала
+                    20 тысяч километров по родной стране. Мы выбрали и описали некоторые интересные места, достойные
+                    вашего
+                    отпуска.</p>
+                <ul class="intro__list">
+                    <li>Часовых поясов <span class="intro__list-num">11</span></li>
+                    <li>Объектов природного наследия ЮНЕСКО <span class="intro__list-num">12</span></li>
+                    <li>Объектов культурного наследия ЮНЕСКО <span class="intro__list-num">16</span></li>
+                    <li>Природных заповедников <span class="intro__list-num">105</span></li>
+                    <li>Аэропортов <span class="intro__list-num">241</span></li>
+                </ul>
+            </div>
         </section>
 
         <!-- ============================Photo-grid====================== -->
         <section class="photo-grid">
             <ul class="photo-grid__content">
-                <li><img class="photo-grid__item" src="./images/photo__item-1.png" alt="фото"></li>
-                <li><img class="photo-grid__item" src="./images/photo__item-2.png" alt="фото"></li>
-                <li><img class="photo-grid__item" src="./images/photo__item-3.png" alt="фото"></li>
-                <li><img class="photo-grid__item" src="./images/photo__item-4.png" alt="фото"></li>
-                <li><img class="photo-grid__item" src="./images/photo__item-5.png" alt="фото"></li>
-                <li><img class="photo-grid__item" src="./images/photo__item-6.png" alt="фото"></li>
-                <li><img class="photo-grid__item" src="./images/photo__item-7.png" alt="фото"></li>
-                <li><img class="photo-grid__item" src="./images/photo__item-8.png" alt="фото"></li>
-                <li><img class="photo-grid__item" src="./images/photo__item-9.png" alt="фото"></li>
-                <li><img class="photo-grid__item" src="./images/photo__item-10.png" alt="фото"></li>
-                <li><img class="photo-grid__item" src="./images/photo__item-11.png" alt="фото"></li>
-                <li><img class="photo-grid__item" src="./images/photo__item-12.png" alt="фото"></li>
+                <li class="photo-grid__img"><img class="photo-grid__item" src="./images/photo__item-1.png" alt="фото">
+                </li>
+                <li class="photo-grid__img"><img class="photo-grid__item" src="./images/photo__item-2.png" alt="фото">
+                </li>
+                <li class="photo-grid__img"><img class="photo-grid__item" src="./images/photo__item-3.png" alt="фото">
+                </li>
+                <li class="photo-grid__img"><img class="photo-grid__item" src="./images/photo__item-4.png" alt="фото">
+                </li>
+                <li class="photo-grid__img"><img class="photo-grid__item" src="./images/photo__item-5.png" alt="фото">
+                </li>
+                <li class="photo-grid__img"><img class="photo-grid__item" src="./images/photo__item-6.png" alt="фото">
+                </li>
+                <li class="photo-grid__img"><img class="photo-grid__item" src="./images/photo__item-7.png" alt="фото">
+                </li>
+                <li class="photo-grid__img"><img class="photo-grid__item" src="./images/photo__item-8.png" alt="фото">
+                </li>
+                <li class="photo-grid__img"><img class="photo-grid__item" src="./images/photo__item-9.png" alt="фото">
+                </li>
+                <li class="photo-grid__img"><img class="photo-grid__item" src="./images/photo__item-10.png" alt="фото">
+                </li>
+                <li class="photo-grid__img"><img class="photo-grid__item" src="./images/photo__item-11.png" alt="фото">
+                </li>
+                <li class="photo-grid__img"><img class="photo-grid__item" src="./images/photo__item-12.png" alt="фото">
+                </li>
             </ul>
 
         </section>
 
         <!-- ============================Places========================== -->
         <section class="places">
-            <div class="place">
+            <article class="place">
                 <h3 class="place__title">Куршская коса</h3>
                 <img class="place__image" src="./images/place__image-1.png" alt="Куршская коса">
                 <div class="place__website">
@@ -94,8 +108,8 @@
                         здешних
                         мест исключает суету, окуная в спокойствие природы и запах стального, прохладного моря.</p>
                 </div>
-            </div>
-            <div class="place">
+            </article>
+            <article class="place">
                 <h3 class="place__title">Кольский</h3>
                 <img class="place__image" src="./images/place__image-2.png" alt="Кольский">
                 <div class="place__website">
@@ -114,8 +128,8 @@
                         северное сияние начинает сбываться с билетом
                         в Мурманск.</p>
                 </div>
-            </div>
-            <div class="place">
+            </article>
+            <article class="place">
                 <h3 class="place__title">Алтай</h3>
                 <img class="place__image" src="./images/place__image-3.png" alt="Алтай">
                 <div class="place__website">
@@ -133,8 +147,8 @@
                         летают орлы, а на равнинах пасутся косули. И знаменитые манулы — тоже обитатели Алтайского края.
                     </p>
                 </div>
-            </div>
-            <div class="place">
+            </article>
+            <article class="place">
                 <h3 class="place__title">Зимний Байкал</h3>
                 <img class="place__image" src="./images/place__image-4.png" alt="Зимний Байкал">
                 <div class="place__website">
@@ -150,8 +164,8 @@
                         к мотоциклу, и тандем старается развить как можно бóльшую скорость на льду. В марте 2019 года на
                         фестивале «Байкальская миля» был поставлен мировой рекорд — 197.011 км/ч..</p>
                 </div>
-            </div>
-            <div class="place">
+            </article>
+            <article class="place">
                 <h3 class="place__title">Карелия</h3>
                 <img class="place__image" src="./images/place__image-5.png" alt="Карелия">
                 <div class="place__website">
@@ -167,27 +181,22 @@
                         В девственном лесу на сотню километров не встретишь тропы. А на редких тропинках деревья
                         в паре метров от земли помечены медвежьими когтями. Чтобы все знали, кто тут хозяин.</p>
                 </div>
-            </div>
+            </article>
         </section>
 
         <!-- ============================Cover=========================== -->
         <section class="cover">
             <a class="links cover__link" href="https://stampsy.com/na-elektrichkakh-do-baikala">
-                <div class="cover__overlay">
-                    <div class="cover__text">
-                        <h3 class="cover__title">До Байкала &laquo;на собаках&raquo;</h3>
-                        <p class="cover__subtitle">По мотивам учебной темы о Транссибе — путешествие от столицы до
-                            Байкала
-                            на
-                            электричках.</p>
-                    </div>
-                </div>
-
+                <h3 class="cover__title">До Байкала &laquo;на собаках&raquo; </h3>
+                <p class="cover__subtitle">По мотивам учебной темы о Транссибе — путешествие от столицы до
+                    Байкала
+                    на
+                    электричках.</p>
             </a>
         </section>
     </main>
     <!-- ============================Footer========================== -->
-    <section class="footer">
+    <footer class="footer">
         <nav class="nav">
             <a class="links footer__link" href="https://yandex.ru/maps">Карты</a>
             <a class="links footer__link" href="https://yandex.ru/pogoda">Погода</a>
@@ -196,7 +205,7 @@
             <a class="links footer__link" href="https://travel.yandex.ru">Путешествия</a>
         </nav>
         <p class="footer__copyright">© 2021. Сергей Полозов</p>
-    </section>
+    </footer>
 
 </body>
 

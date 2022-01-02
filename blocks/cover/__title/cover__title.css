@@ -5,12 +5,19 @@
     font-size: 72px;
     line-height: 1.1;
     font-weight: 900;
-    margin: 0;
+    margin: 21% auto 32px;
 }
 
-@media screen and (max-width: 740px) {
+@media screen and (max-width: 768px) {
     .cover__title {
-        margin: 0;
+        margin: 15% auto 32px;
+    }
+}
+
+@media screen and (max-width: 430px) {
+    .cover__title {
+        max-width: 255px;
+        margin: 10% auto 16px;
         font-size: 32px;
     }
 }

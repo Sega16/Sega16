@@ -8,10 +8,6 @@
     margin: 0 0 92px 0;
 }
 
-.intro__list span {
-    font-weight: normal;
-}
-
 @media screen and (max-width: 1020px) {
     .intro__list {
         margin-bottom: 88px;
