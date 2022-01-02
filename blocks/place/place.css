@@ -9,6 +9,7 @@
     "img para";
     margin:  0 auto 80px;
     column-gap: 40px;
+    row-gap: 48px;
 }
 
 .place:last-child {
@@ -24,7 +25,6 @@
 @media screen and (max-width: 980px) {
     .place {
         margin: 0 auto 73px;
-        row-gap: 48px;
         column-gap: 28px;
         grid-template-columns: 1fr 1fr;
      }
