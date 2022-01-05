@@ -1,4 +1,4 @@
 
-.header__link_active:focus {
+.header__link_active {
     text-decoration: underline;
 }

@@ -1,5 +1,7 @@
 
 .places {
+    display: grid;
+    justify-content: center;
     margin: 0 auto 92px;
 }
 
@@ -9,7 +11,7 @@
     }
 }
 
-@media screen and (max-width: 320px) {
+@media screen and (max-width: 670px) {
     .places {
         margin: 0 auto 66px;
     }

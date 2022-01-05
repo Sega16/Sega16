@@ -6,3 +6,9 @@
     grid-template-rows: min-content;
     grid-area: para;
 }
+
+@media screen and (max-width: 500px) {
+    .place__paragraph {
+        margin: 0 16px 0 16px;
+    }
+}

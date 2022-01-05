@@ -7,13 +7,13 @@
 @media screen and (max-width: 870px) {
     .place__image {
         max-width: 340px;
-        max-height: auto;
+        max-height: 340px;
     }
 }
 
-@media screen and (max-width: 320px) {
+@media screen and (max-width: 670px) {
     .place__image {
-        width: 100vw;
-        margin-left: calc(-50vw + 50%);
+        max-width: inherit;
+        max-height: inherit;
     }
 }

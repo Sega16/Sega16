@@ -9,13 +9,16 @@
 /* ==================================links================================= */
 @import url(../blocks/links/links.css);
 
+/* =================================container=============================== */
+@import url(../blocks/container/container.css);
+
 
 /* ===================================HEADER============================== */
 @import url(../blocks/header/header.css);
 @import url(../blocks/header/__logo/header__logo.css);
 @import url(../blocks/header/__lang-link/header__lang-link.css);
 @import url(../blocks/header/__link/header__link.css);
-@import url(../blocks/header/__link/__link_active/header__link_active.css);
+@import url(../blocks/header/__link/_active/header__link_active.css);
 
 /* ====================================LEAD=============================== */
 @import url(../blocks/lead/lead.css);
@@ -31,7 +34,6 @@
 @import url(../blocks/intro/__text/intro__text.css);
 @import url(../blocks/intro/__list/intro__list.css);
 @import url(../blocks/intro/__list-num/intro__list-num.css);
-@import url(../blocks/wrapp-intro/wrapp-intro.css);
 
 /* ====================================PHOTO-GRID========================== */
 @import url(../blocks/photo-grid/photo-grid.css);
