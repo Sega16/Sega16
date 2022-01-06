@@ -1,7 +1,15 @@
 
 .place__image {
-    width: inherit;
+    max-width: 460px;
+    max-height: 460px;
     grid-area: img;
+}
+
+@media screen and (max-width: 1024px) {
+    .place__image {
+        max-width: 440px;
+        max-height: 440px;
+    }
 }
 
 @media screen and (max-width: 870px) {

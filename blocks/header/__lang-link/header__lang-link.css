@@ -6,6 +6,4 @@
     grid-template-columns: 1fr 1fr;
     column-gap: 18px;
     list-style-type: none;
-    text-align: end;
-    align-items: flex-end;
 }
